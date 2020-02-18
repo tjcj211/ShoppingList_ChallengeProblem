@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item1" />
+
+    <TextView
+        android:id="@+id/txtItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item2" />
+
+    <TextView
+        android:id="@+id/txtItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item3" />
+
+    <TextView
+        android:id="@+id/txtItem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item4" />
+
+    <TextView
+        android:id="@+id/txtItem5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item5" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addButtonText"
+        android:onClick="goToItems"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="item1">-</string>
+    <string name="item2">-</string>
+    <string name="item3">-</string>
+    <string name="item4">-</string>
+    <string name="item5">-</string>
+    <string name="addButtonText">ADD</string>
+
+    <string name="cheeseButtonText">Cheese</string>
+    <string name="riceButtonText">Rice</string>
+    <string name="cornButtonText">Corn</string>
+    <string name="flourButtonText">Flour</string>
+</resources>
